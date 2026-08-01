@@ -1,0 +1,39 @@
+# =========================================================================
+# TERRAFORM LOGIC
+# =========================================================================
+
+# Local .terraform directories containing downloaded providers and modules
+.terraform/
+
+# .tfstate files contain sensitive infrastructure data and secrets
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all variable files containing production/secret values
+*.tfvars
+*.tfvars.json
+
+# Override files containing local alterations
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include CLI configuration files
+.terraformrc
+terraform.rc
+
+# =========================================================================
+# VISUAL STUDIO CODE LOGIC
+# =========================================================================
+
+# User-specific settings, tasks, and launch configurations
+.vscode/*
+
+# Exception: Keep extensions.json to recommend the HashiCorp extension to your team
+!.vscode/extensions.json
+!.vscode/settings.json
