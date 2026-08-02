@@ -9,6 +9,7 @@ resource "aws_vpc" "main" {
   }
 }
 
+# ======
 # variable "dbname" {
 #     type = string
 # }
